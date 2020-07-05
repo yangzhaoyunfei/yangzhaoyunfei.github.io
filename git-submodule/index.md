@@ -85,4 +85,29 @@ git submodule update --init --recursive
 ## 在子模块上工作
 与在普通仓库上工作无异。
 
+### 添加 \ 删除子模块
 
+子模块与父模块使用不同的远程仓库，互不影响,以下命令均在父模块根目录下操作
+```shell scriptusername
+# 添加
+git submodule add -b master https://github.com/username/reponame.git dirname
+# 或
+git submodule add -b master git@github.com:username/reponame.git dirname
+
+# 移除
+git rm submodule-name
+```
+
+Removing a submodule is useful when it is no longer required. The steps below outline the removal of a submodule.
+
+Remove Submodule
+Delete the section referring to the submodule from the .gitmodules file
+Stage the changes via git add .gitmodules
+Delete the relevant section of the submodule from .git/config.
+Run git rm --cached path_to_submodule (no trailing slash)
+Run rm -rf .git/modules/path_to_submodule
+Commit the changes with ```git commit -m "Removed submodule "
+Delete the now untracked submodule files rm -rf path_to_submodule
+
+## References 
+* [移除子模块](https://forum.freecodecamp.org/t/how-to-remove-a-submodule-in-git/13228)

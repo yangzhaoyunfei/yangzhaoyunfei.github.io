@@ -31,11 +31,11 @@ $env:HTTP_PROXY="http://127.0.0.1:1080"
 <?xml version="1.0" encoding="utf-8"?>
     <packages>
       <package id="jdk8" />
-      <package id="adoptopenjdk11" />
-      <package id="adoptopenjdk13" />
+      <package id="visualstudio2019community" />
       <package id="adoptopenjdk14" />
       <package id="7zip"/>
       <package id="git" />
+      <package id="github-desktop" />
       <package id="hugo-extended" />
       <package id="maven" />
       <package id="gradle" />
@@ -53,7 +53,6 @@ $env:HTTP_PROXY="http://127.0.0.1:1080"
       <package id="studio3t" />
       <package id="heidisql" />
       <package id="sourcetree" />
-      <package id="github-desktop" />
       <package id="dismplusplus" />
       <package id="tortoisesvn" />
     </packages>

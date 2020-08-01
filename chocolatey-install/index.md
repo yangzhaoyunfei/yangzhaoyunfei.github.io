@@ -55,6 +55,8 @@ $env:HTTP_PROXY="http://127.0.0.1:1080"
       <package id="sourcetree" />
       <package id="dismplusplus" />
       <package id="tortoisesvn" />
+      <package id="shadowsocksr-windows" />
+      <package id="clash-for-windows" />
     </packages>
 ```
 

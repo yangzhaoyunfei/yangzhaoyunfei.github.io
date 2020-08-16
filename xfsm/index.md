@@ -10,7 +10,7 @@
 * 操作系统：windows10专业版1909
 * 输入法软件：rime-0.14.3
 * 输入方案：西风瘦码原版
-    
+
 ## 下载rime
 
 [下载地址](https://rime.im/download/).
@@ -48,8 +48,13 @@
 
 ## 友情链接
 
-点击链接加入群聊【真码输入法】：[https://jq.qq.com/?_wv=1027&k=55NuYXm](https://jq.qq.com/?_wv=1027&k=55NuYXm)
+点击链接加入群聊【真码输入法】：[群号192524731](https://jq.qq.com/?_wv=1027&k=55NuYXm)
+
+点击链接加入群聊【真码输入法】：[群号567108385](https://jq.qq.com/?_wv=1027&k=Vo7SkMOQ)
+
+[击键爱好者常用社区](https://yangzhaoyunfei.github.io/input-method-community/)
 
 ## 问题
+
 初次写作, 发现截图尺寸没有标准, 不美观, 以后改进。
-     
+

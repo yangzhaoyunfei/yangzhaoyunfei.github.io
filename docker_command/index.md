@@ -28,7 +28,21 @@ docker cp mycontainer:/opt/test/file.txt /opt/test/
 docker cp /opt/test/file.txt mycontainer:/opt/test/
 
 ```
+### 数据卷 volume
 
+```bash
+# 启动容器时添加volume
+docker run -it -v /宿主机绝对路径目录:/容器内目录 镜像名
+
+# 检查挂载是否成功（查看绑定关系是否已经建立）
+docker inspect 容器ID
+
+# 创建容器内只读数据卷（read-only）
+docker run -it -v /宿主机绝对路径目录:/容器内目录:ro 镜像名
+
+# 挂载数据卷容器“挂载了数据卷的容器”
+docker run -it --name childDoc --volumes-from 77c79cca0420 centos
+```
 ## 常用选项
 -i, --interactive          Attach container's STDIN
 -t, --tty                            Allocate a pseudo-TTY

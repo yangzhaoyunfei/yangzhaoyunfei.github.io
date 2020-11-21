@@ -26,7 +26,17 @@ touch $DOCKER_V_MYSQL_DIR/conf/my.cnf
 ```
 
 ## 运行容器
-* 指定数据卷目录的参考5.x,因为该文档实在windows版docker上实践, 故没有使用数据卷
+* 指定数据卷目录
+```bash
+docker run -p 3306:3306 \
+--name mysql \
+-v $DOCKER_V_MYSQL_DIR/conf:/etc/mysql/conf.d \
+-v $DOCKER_V_MYSQL_DIR/logs:/logs \
+-v $DOCKER_V_MYSQL_DIR/data:/var/lib/mysql \
+-e MYSQL_ROOT_PASSWORD=123456 \
+-d \
+mysql
+```
 
 * 不指定数据卷目录
 ```shell script

@@ -123,7 +123,7 @@
     
 ## 如何保证消息队列服务的高可用性
 
-高可用的根本解决方案: 冗余;
+**高可用的根本解决方案: 冗余;**
 以rcoketMQ为例，他的集群就有多master 模式、多master多slave异步复制模式、多 master多slave同步双写模式。
 
 ![pop](/images/working/mq17.jpg "多master多slave模式部署架构图")

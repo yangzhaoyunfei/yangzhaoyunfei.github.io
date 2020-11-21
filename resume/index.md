@@ -2,7 +2,7 @@
 
 
 
-![](https://yangzhaoyunfei.oss-cn-beijing.aliyuncs.com/%E5%A4%96%E9%93%BE%E5%88%86%E4%BA%AB%E6%8B%92%E7%BB%9D%E5%88%A0%E9%99%A4/11021161.JPG)
+![](https://yangzhaoyunfei.oss-cn-beijing.aliyuncs.com/%E5%A4%96%E9%93%BE%E5%88%86%E4%BA%AB%E6%8B%92%E7%BB%9D%E5%88%A0%E9%99%A4/1600341857394.jpg)
 
 # 联系方式
 
@@ -15,7 +15,7 @@
  - **唐忠维** / 男 / 27岁
  - 本科 / 中国石油大学(华东)
  - 专业 / 石油工程
- - 工作年限: 1.5年
+ - 工作年限: 2年
 
 # 自我评价
 两年Java后台开发经验, 开发过多种类型的项目, 熟悉 **项目开发及部署流程**;   

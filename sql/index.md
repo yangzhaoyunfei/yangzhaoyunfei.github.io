@@ -36,6 +36,10 @@ order by USER_NAME, score
 
 https://zhuanlan.zhihu.com/p/260536848
 
+1. 前后模糊查询优化
+    1. mysql5.7以下，加入反向字段，并建立索引
+    1. 5.7以上，虚拟列，
+    1. https://www.jianshu.com/p/9f83eebc8606
 
 1、**查询SQL尽量不要使用select *，而是select具体字段。**
 

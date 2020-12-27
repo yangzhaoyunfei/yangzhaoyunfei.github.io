@@ -135,8 +135,9 @@ sudo groupadd docker
 # 向用户组添加用户(以foo用户为例)
 sudo usermod -aG docker foo
 
-# 注销并重新登录
-exit
+# 刷新用户组 或 注销并重新登录
+newgrp docker 
+#exit
 
 # 重新登录后, 执行以下命令验证是否生效
 docker run hello-world
